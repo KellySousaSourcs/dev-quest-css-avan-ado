@@ -1,0 +1,35 @@
+/* Seletor::pseudo-elemento{
+    propriedade: valor;} */
+
+.first-letter::first-letter{
+    color: yellowgreen;
+}
+
+.first-line::first-line{
+    color: blue;
+}
+
+.first-line::first-letter{
+    color: rgb(36, 212, 89);
+}
+
+li::marker{
+    color: yellow;
+    font-size: 40px;
+}
+
+h2::before{
+    content: "";
+    background: url('images/plant.png') center center no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+h3::after{
+    content: "";
+    background: url('images/plant.png') center center no-repeat;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}

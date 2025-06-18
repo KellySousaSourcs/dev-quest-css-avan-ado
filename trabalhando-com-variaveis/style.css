@@ -1,0 +1,26 @@
+:root{
+    --cor-padrao: rgb(37, 87, 226);
+    --tamanho-fonte-padrao: 70px;
+}
+
+h2{
+    --cor-padrao: orange;
+    color: var(--cor-padrao, blue);
+    font-size: var(--tamanho-fonte-padrao, 50px);
+    background-color: var(--cor-padrao);
+}
+
+h3{
+    color: var(--cor-padrao, green);
+    font-size: var(--tamanho-fonte-padrao, 50px);
+}
+
+p{
+    color: var(--cor-padrao, pink);
+    font-size: var(--tamanho-fonte-padrao, 50px);
+}
+
+span{
+    color: var(--cor-padrao, yellow);
+    font-size: var(--tamanho-fonte-padrao, 50px);
+}

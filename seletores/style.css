@@ -1,0 +1,58 @@
+h1 {
+    color: green;
+}
+
+.paragrafo {
+    color: blue;
+}
+
+#menu {
+    margin-left: 100px;
+}
+
+* {
+    padding: 0;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.titulo.laranja {
+    color: orangered;
+}
+
+.titulo.vermelho {
+    color: red;
+}
+
+p,
+span {
+    font-size: 10px;
+}
+
+.sobre .texto {
+    color: rgb(121, 20, 121);
+}
+
+/* pai > filho { propriedade: valor;} */
+
+div>p {
+    color: rgb(42, 183, 17);
+}
+
+/* Aqui ele vai adicionar esse estilo a um paragrafo que está depois dessa div,
+    o caso fora dela, mas somente o primeiro elemento que estiver fora dela,
+    se no caso tiver dois elementos fora da div ele vai estilizar apenas o primeiro. */
+div+p {
+    color: royalblue;
+}
+
+a[target=_blank]{
+    color: rgb(216, 19, 131);
+}
+
+a[href= "google.com"]{
+    color: olivedrab;
+}
